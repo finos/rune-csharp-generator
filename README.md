@@ -1,47 +1,66 @@
-<img align="right" width="40%" src="https://www.finos.org/hubfs/FINOS/finos-logo/FINOS_Icon_Wordmark_Name_RGB_horizontal.png">
+[![FINOS - Incubating](https://cdn.jsdelivr.net/gh/finos/contrib-toolbox@master/images/badge-incubating.svg)](https://community.finos.org/docs/governance/lifecycle-stages/incubating)
 
-# FINOS Software Project Blueprint
+# Rune CSharp Generator
 
-Project blueprint is a GitHub repository template for all [Fintech Open Source Foundation (FINOS)](https://www.finos.org/) hosted GitHub repositories, contributed and maintained by FINOS.
+Short blurb about what your project does.
 
-## How to use this blueprint
+## Installation
 
-Please also follow the instructions on [community.finos.org/docs/collaboration-infrastructure#finos-project-blueprint](https://community.finos.org/docs/collaboration-infrastructure#finos-project-blueprint).
+OS X & Linux:
 
-1. Click **Use this template** on this repository and follow GitHub's instructions.
-2. In your new repository, copy `README.template.md` to `README.md` (replacing this file).
-3. Search and replace the following tokens across the copied files:
+```sh
+npm install my-crazy-module --save
+```
 
-| Token | Replace with |
-| ----- | ------------ |
-| `{PROJECT_NAME}` | The name of the FINOS project, e.g. `Open Developer Platform` |
-| `{PROJECT_SLUG}` | The GitHub repository name, e.g. `software-project-blueprint` |
-| `{PROJECT_URL}` | The GitHub repository URL, e.g. `https://github.com/finos/software-project-blueprint` |
-| `{PROJECT_MAILING_LIST}` | The project mailing list address, if any |
-| `{YYYY}` | The year you started working on the code |
-| `{CURRENT_YEAR}` | The current year |
-| `{NAME_OF_COPYRIGHT_OWNER}` | The copyright owner of the code (typically you or your employer) |
-| `{EMAIL_OF_COPYRIGHT_OWNER}` | The email address of the copyright owner of the code (if known) |
-| `{OTHER_NOTICES}` | Additional NOTICE attributions required by dependencies, or remove this token |
+Windows:
 
-4. Open the `NOTICE` file and either remove `{OTHER_NOTICES}` or add attributions if required by your code's dependencies.
-5. Open `README.md` and complete the content as appropriate for your project.
-6. Open `MAINTAINERS.md` and add maintainer names, GitHub usernames, and email addresses.
-7. (Optional) Remove the `docs/` and `website/` folders if you do not need a project documentation website.
+```sh
+edit autoexec.bat
+```
 
-Placeholders use `{UPPER_SNAKE_CASE}` tokens throughout the blueprint.
+## Usage example
 
-## Blueprint preview
+A few motivating and useful examples of how your project can be used. Spice this up with code blocks and potentially screenshots / videos ([LiceCap](https://www.cockos.com/licecap/) is great for this kind of thing).
 
-A preview of the blueprint can be found on [project-blueprint.finos.org](https://project-blueprint.finos.org)
+_For more examples and usage, please refer to the [Wiki][wiki]._
 
-## Governance
+## Development setup
 
-This blueprint implements [FINOS open source software project governance](https://community.finos.org/docs/governance/#open-source-software-projects) on community.finos.org.
+Describe how to install all development dependencies and how to run an automated test-suite of some kind. Potentially do this for multiple platforms.
+
+```sh
+make install
+npm test
+```
+
+## Roadmap
+
+List the roadmap steps; alternatively link the Confluence Wiki page where the project roadmap is published.
+
+1. Item 1
+2. Item 2
+3. ....
+
+## Contributing
+
+We welcome contributions! Please follow these steps to get started:
+
+1. Fork the repository (<https://github.com/finos/rune-python-generator/fork>)
+2. Create your feature branch (`git checkout -b feature/fooBar`)
+3. Read our [contribution guidelines](.github/CONTRIBUTING.md) and [Community Code of Conduct](https://www.finos.org/code-of-conduct)
+4. Commit your changes (`git commit -am 'Add some fooBar'`)
+5. Push to the branch (`git push origin feature/fooBar`)
+6. Create a new Pull Request: the intention is to ensure that Main is always production ready and matches a release.
+   - Simple / short running changes : the PR should be to Main
+   - Complex / long running changes: the recommendation is to complete all the changes in a staging branch, such as Develop or another branch of your choosing.  Once the change is complete and passes all tests, then raise the PR to main from your staging branch.
+
+**NOTE: FINOS repositories require an executed and active FINOS Individual Contributor License Agreement (ICLA) or an executed and active FINOS Corporate Contribution License Agreement (CCLA). The FINOS Clabot tool (or EasyCLA) will flag and block commits from individuals not covered. Please note that some CCLAs require individuals/employees to be explicitly named on the CCLA.**
+
+If you are unsure if you are covered under an existing CCLA send an email to <help@finos.org>
 
 ## License
 
-Copyright 2019 Fintech Open Source Foundation
+Copyright 2026 FINOS
 
 Distributed under the [Apache License, Version 2.0](http://www.apache.org/licenses/LICENSE-2.0).
 

@@ -1,6 +1,6 @@
 name: 🤝 Meeting Minutes
-description: To track {PROJECT_NAME} meeting agenda and attendance
-title: "DD MMM YYYY - {PROJECT_NAME} Meeting Minutes"
+description: To track Rune CSharp Generator meeting agenda and attendance
+title: "DD MMM YYYY - Rune CSharp Generator Meeting Minutes"
 labels: ["meeting"]
 body:
   - type: markdown
